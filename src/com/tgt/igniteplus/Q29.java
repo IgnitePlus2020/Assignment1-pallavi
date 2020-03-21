@@ -18,7 +18,7 @@ public class Q29 {
             int mid=(low+high)/2;
             if(key==a[mid]){
                 System.out.print("the key/search element is found at "+(mid+1));
-                b
+                
             }
             else if(key<a[mid])
                 high=mid-1;
